@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <h1 class="sr-only">Furniture website page</h1>
+      <header class="page-header">
+        <div class="page-header__container container">
+          <nav class="main-navigation">
+            <div class="main-navigation__burger-wrapper">
+              <a class="main-navigation__logo logo logo--color--light" href="#">Furni.</a>
+              <button class="main-navigation__burger burger">
+                <span class="sr-only">Close button menu</span>
+                <span class="burger__row"></span>
+              </button>
+            </div>
+            <div class="page-header__wrapper">
+              <ul class="main-navigation__site-menu site-navigation">
+                <li class="site-navigation__item site-navigation__item--active">
+                  <a class="site-navigation__link" href="#promo" data-scroll="promo">Home</a>
+                </li>
+                <li class="site-navigation__item">
+                  <a class="site-navigation__link" href="#about" data-scroll="about">About us</a>
+                </li>
+                <li class="site-navigation__item">
+                  <a class="site-navigation__link" href="#services" data-scroll="services">Services</a>
+                </li>
+                <li class="site-navigation__item">
+                  <a class="site-navigation__link" href="#testimonials" data-scroll="testimonials">Testimonials</a>
+                </li>
+                <li class="site-navigation__item">
+                  <a class="site-navigation__link" href="#blog" data-scroll="blog">Blog</a>
+                </li>
+              </ul>
+              <ul class="main-navigation__user-menu user-navigation">
+                <li class="user-navigation__item user-navigation__item--type--account">
+                  <a class="user-navigation__link" href="#">
+                    <span class="sr-only">User account</span>
+                  </a>
+                </li>
+                <li class="user-navigation__item user-navigation__item--type--cart">
+                  <a class="user-navigation__link" href="#">
+                    <span class="sr-only">Shopping cart</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section id="promo" class="promo section">
+          <div class="promo__container container">
+            <div class="promo__content-wrapper">
+              <h2 class="promo__title">Modern Interior Design Studio</h2>
+              <div class="promo__button-wrapper">
+                <a class="promo__button button button--theme--light" href="#">Shop Now</a>
+                <a class="promo__button button button--theme--transparent" href="#">Explore</a>
+              </div>
+            </div>
+            <div class="promo__img-wrapper">
+              <img class="promo__img" src="images/promo-couch.png" alt="Couch model-132" width="810" height="525">
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="showcase section">
+          <div class="showcase__container container">
+            <div class="showcase__wrapper-description">
+              <h2 class="showcase__title">Crafted with excellent material.</h2>
+              <p class="showcase__text">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done.</p>
+              <a class="showcase__button button button--theme--dark" href="#">Explore</a>
+            </div>
+            <div class="showcase__product product">
+              <div class="product__list">
+                <a class="product__item" href="#">
+                  <div class="product__wrapper-item">
+                    <img class="product__img" src="images/product-1.png" alt="" width="262" height="262">
+                    <h3 class="product__title">Nordic CHAIR</h3>
+                    <p class="product__price">$50.00</p>
+                  </div>
+                </a>
+                <a class="product__item" href="#">
+                  <div class="product__wrapper-item">
+                    <img class="product__img" src="images/product-2.png" alt="" width="262" height="262">
+                    <h3 class="product__title">Kruzo Aero Chair</h3>
+                    <p class="product__price">$78.00</p>
+                  </div>
+                </a>
+                <a class="product__item" href="#">
+                  <div class="product__wrapper-item">
+                    <img class="product__img" src="images/product-3.png" alt="" width="217" height="262">
+                    <h3 class="product__title">Ergonomic Chair</h3>
+                    <p class="product__price">$43.00</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="features section">
+          <div class="features__container container">
+            <div class="features__wrapper-content">
+              <h2 class="features__title">Why Choose Us</h2>
+              <p class="features__text">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the</p>
+              <ul class="features__list">
+                <li class="features__item features__item--shipping">
+                  <h3 class="features__name">Fast & Free Shipping</h3>
+                  <p class="features__description">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was</p>
+                </li>
+                <li class="features__item features__item--shop">
+                  <h3 class="features__name">Easy to Shop</h3>
+                  <p class="features__description">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was</p>
+                </li>
+                <li class="features__item features__item--support">
+                  <h3 class="features__name">24/7 Support</h3>
+                  <p class="features__description">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was</p>
+                </li>
+                <li class="features__item features__item--returns">
+                  <h3 class="features__name">Hassle Free Returns</h3>
+                  <p class="features__description">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was</p>
+                </li>
+              </ul>
+            </div>
+            <div class="features__wrapper-img">
+              <img class="features__img" src="images/why-choose-us-img.jpg" alt="room model-134" width="512" height="630">
+            </div>
+          </div>
+        </section>
+
+        <section class="design section">
+          <div class="design__container container">
+            <div class="design__inner-wrapper">
+              <div class="design__wrapper-content">
+                <h2 class="design__title">
+                  We help you make <br>
+                  Modern Interior Design
+                </h2>
+                <p class="design__text">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the this is a long post for the text. This small text has to be place here, since this is a place holder. You can also chane it.</p>
+                <ul class="design__u-list u-list">
+                  <li class="u-list__item">Donec mattis porta eros,let aliquet finibus ri</li>
+                  <li class="u-list__item">Donec mattis porta eros,let aliquet finibus ri</li>
+                  <li class="u-list__item">Donec mattis porta eros,let aliquet finibus ri</li>
+                  <li class="u-list__item">Donec mattis porta eros,let aliquet finibus ri</li>
+                </ul>
+                <a class="design__button button button--theme--dark" href="#">Explore</a>
+              </div>
+              <div class="design__wrapper-img">
+                <img class="design__img" src="images/design-room.png" alt="room model-1" width="632" height="559">
+              </div>
+            </div>
+            <ul class="design__setout setout">
+              <li class="setout__item">
+                <img class="setout__img" src="images/setout-product-1.png" alt="Nordic Chair" width="98" height="125">
+                <div class="setout__description">
+                  <h3 class="setout__title">Nordic Chair</h3>
+                  <p class="setout__text">Donec mattis porta eros, aliquet finibus risus in. Donecd</p>
+                  <a class="setout__link" href="#">Read more</a>
+                </div>
+              </li>
+              <li class="setout__item">
+                <img class="setout__img" src="images/setout-product-2.png" alt="Kruzi Aero" width="113" height="123">
+                <div class="setout__description">
+                  <h3 class="setout__title">Kruzi Aero</h3>
+                  <p class="setout__text">Donec mattis porta eros, aliquet finibus risus in. Donecd</p>
+                  <a class="setout__link" href="#">Read more</a>
+                </div>
+              </li>
+              <li class="setout__item">
+                <img class="setout__img" src="images/setout-product-3.png" alt="Ergonomic Chair" width="98" height="119">
+                <div class="setout__description">
+                  <h3 class="setout__title">Ergonomic Chair</h3>
+                  <p class="setout__text">Donec mattis porta eros, aliquet finibus risus in. Donecd</p>
+                  <a class="setout__link" href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="testimonials" class="testimonials section">
+          <div class="testimonials__container container">
+            <h2 class="testimonials__title">Testimonials</h2>
+            <div class="testimonials__slider slider">
+              <div class="slider__wrapper">
+                <div class="slider__list">
+                  <blockquote class="slider__item review">
+                    <p class="review__text">Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma</p>
+                    <img class="review__foto" src="images/person-1.jpg" alt="Michelle Anna. CEO, Co-Founder, XYZ Inc." width="77" height="77">
+                    <cite class="review__author">
+                      Michelle Anna <br>
+                      <span class="review__author-role">CEO, Co-Founder, XYZ Inc.</span>
+                    </cite>
+                  </blockquote>
+                  <blockquote class="slider__item review">
+                    <p class="review__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nostrum necessitatibus voluptate exercitationem quae ratione quam soluta facere quibusdam perspiciatis atque veritatis eaque doloremque veniam non obcaecati possimus alias nobis error labore aliquid excepturi laborum. </p>
+                    <img class="review__foto" src="images/person-2.jpg" alt="Steven Smith. CEO, Co-Founder, LO Inc." width="77" height="77">
+                    <cite class="review__author">
+                      Steven Smith <br>
+                      <span class="review__author-role">CEO, Co-Founder, LO Inc.</span>
+                    </cite>
+                  </blockquote>
+                  <blockquote class="slider__item review">
+                    <p class="review__text">Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma</p>
+                    <img class="review__foto" src="images/person-3.jpg" alt="Allan Hall. CEO, XYZ Inc." width="77" height="77">
+                    <cite class="review__author">
+                      Allan Hall <br>
+                      <span class="review__author-role">CEO, XYZ Inc.</span>
+                    </cite>
+                  </blockquote>
+                  <blockquote class="slider__item review">
+                    <p class="review__text">Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma</p>
+                    <img class="review__foto" src="images/person-1.jpg" alt="Michelle Anna. CEO, Co-Founder, XYZ Inc." width="77" height="77">
+                    <cite class="review__author">
+                      Michelle Anna <br>
+                      <span class="review__author-role">CEO, Co-Founder, XYZ Inc.</span>
+                    </cite>
+                  </blockquote>
+                  <blockquote class="slider__item review">
+                    <p class="review__text">Sit amet consectetur adipisicing elit. Accusamus ullam aperiam labore at architecto, officiis dicta, deserunt eligendi nisi ipsum minus nesciunt sunt similique voluptas quos placeat facilis? Iste voluptates aut rem, ullam deserunt, ratione iure aliquam, assumenda amet ipsa dicta ex laudantium mollitia dolorum earum tempore quo neque nostrum.</p>
+                    <img class="review__foto" src="images/person-3.jpg" alt="Allan Hall. CEO, Co-Founder, XYZ Inc." width="77" height="77">
+                    <cite class="review__author">
+                      Allan Hall <br>
+                      <span class="review__author-role">CEO, Co-Founder, XYZ Inc.</span>
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="slider__control-wrapper">
+                <button class="slider__button slider__button--prev slider__button--disabled" disabled><span class="sr-only">Previous slide</span></button>
+                <button class="slider__button slider__button--next"><span class="sr-only">Next slide</span></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="blog" class="blog section">
+          <div class="blog__container container">
+            <div class="blog__wrapper-inner">
+              <h2 class="blog__title">Recent Blog</h2>
+              <a class="blog__all-posts" href="#">View All Posts</a>
+            </div>
+            <div class="blog__posts posts">
+              <article class="posts__item">
+                <a class="posts__link" href="#">
+                  <div class="posts__wrapper-img">
+                    <img class="posts__img" src="images/post-1.jpg" alt="Home-1" width="360" height="249">
+                  </div>
+                  <h3 class="posts__title">First Time Home Owner Ideas</h3>
+                  <p class="posts__info">by <span class="posts__author">Nana Ama</span> on <time class="posts__date" datetime="2022-11-18 19:00">Nov 18th, 2022</time></p>
+                </a>
+              </article>
+              <article class="posts__item">
+                <a class="posts__link" href="#">
+                  <div class="posts__wrapper-img">
+                    <img class="posts__img" src="images/post-2.jpg" alt="Home-2" width="360" height="249">
+                  </div>
+                  <h3 class="posts__title">First Time Home Owner Ideas</h3>
+                  <p class="posts__info">by <span class="posts__author">Nana Ama</span> on <time class="posts__date" datetime="2022-11-18 19:00">Nov 18th, 2022</time></p>
+                </a>
+              </article>
+              <article class="posts__item">
+                <a class="posts__link" href="#">
+                  <div class="posts__wrapper-img">
+                    <img class="posts__img" src="images/post-3.jpg" alt="Home-3" width="360" height="249">
+                  </div>
+                  <h3 class="posts__title">First Time Home Owner Ideas</h3>
+                  <p class="posts__info">by <span class="posts__author">Nana Ama</span> on <time class="posts__date" datetime="2022-11-18 19:00">Nov 18th, 2022</time></p>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="subscribe section">
+          <div class="subscribe__container container">
+            <h2 class="subscribe__title">Subscribe to Newsletter</h2>
+            <form class="subscribe__form form" action="#" method="post">
+              <label class="sr-only" for="frmName">Your name</label>
+              <input id="frmName" class="form__field" type="text" placeholder="Enter your name">
+              <label class="sr-only" for="frmEmail">Your e-mail</label>
+              <input id="frmEmail" class="form__field" type="text" placeholder="Enter your e-mail">
+              <button class="form__submit" type="submit"><span class="sr-only">Subscribe</span></button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container container">
+          <a class="footer__logo logo logo--color--dark" href="#promo" data-scroll="promo">Furni.</a>
+          <div class="footer__wrapper-inner">
+            <div class="footer__social-wrapper">
+              <p class="footer__text">Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the this is a long post for the text. This small text has to be place here, since this is</p>
+              <ul class="footer__social social">
+                <li class="social__item social__item--facebook">
+                  <a class="social__link" href="#">
+                    <span class="sr-only">Facebook</span>
+                  </a>
+                </li>
+                <li class="social__item social__item--instagram">
+                  <a class="social__link" href="#">
+                    <span class="sr-only">Instagram</span>
+                  </a>
+                </li>
+                <li class="social__item social__item--twitter">
+                  <a class="social__link" href="#">
+                    <span class="sr-only">Twitter</span>
+                  </a>
+                </li>
+                <li class="social__item social__item--linkedIn">
+                  <a class="social__link" href="#">
+                    <span class="sr-only">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__navigation add-navigation">
+              <ul class="add-navigation__list">
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#about" data-scroll="about">About us</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#services" data-scroll="services">Services</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#testimonials" data-scroll="testimonials">Testimonials</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#blog" data-scroll="blog">Blog</a></li>
+              </ul>
+              <ul class="add-navigation__list">
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Support</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Knowledge base</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Live chat</a></li>
+              </ul>
+              <ul class="add-navigation__list">
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Jobs</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Our team </a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Leadership</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Privacy Policy </a></li>
+              </ul>
+              <ul class="add-navigation__list">
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Nordic Chair</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Kruzo Aero</a></li>
+                <li class="add-navigation__item"><a class="add-navigation__link" href="#">Ergonomic</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="footer__hr">
+          <div class="footer__copyright copyright">
+            <p class="copyright__info">Copyright 2022 <a class="copyright__contact" href="mailto:degraft87@gmail.com">degraft87@gmail.com</a>. All Rights Reserved.</p>
+            <ul class="copyright__list">
+              <li class="copyright__item">
+                <a class="copyright__link" href="#">Terms & Conditions</a>
+              </li>
+              <li class="copyright__item">
+                <a class="copyright__link" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/slider.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixedHeader.js"></script>
+    <script src="js/debounce.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
